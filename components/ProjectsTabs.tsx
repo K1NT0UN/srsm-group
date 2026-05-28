@@ -114,16 +114,13 @@ export default function ProjectsTabs({ current, pipeline, completed }: Props) {
                           </span>
                           <h4 className="font-serif text-3xl text-forest group-hover:text-gold transition-colors duration-300 mb-1 font-bold">
                             {p.name}
-                            <span className="ml-3 align-middle text-[10px] tracking-widest uppercase text-gold/60 font-sans font-normal border border-gold/40 px-2 py-0.5">
-                              Name TBD
-                            </span>
                           </h4>
                           <p className="text-sm text-charcoal-light mb-4">{p.location} · {p.type}</p>
                           {p.description && (
                             <p className="text-sm text-charcoal-light leading-relaxed max-w-lg">{p.description}</p>
                           )}
                           <div className="mt-5 flex flex-wrap gap-3 text-xs">
-                            {['High-Rise Living', 'Nisarga Township', 'Kollur Corridor'].map(tag => (
+                            {['High-Rise Living', 'Nisarga Township', 'Kollur Corridor', 'Premium Apartments'].map(tag => (
                               <span key={tag} className="px-3 py-1 border border-gold/30 text-gold/80 tracking-wide uppercase">{tag}</span>
                             ))}
                           </div>
