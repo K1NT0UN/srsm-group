@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import type { Project } from '@/lib/projects'
 
@@ -74,7 +75,20 @@ export default function ProjectsTabs({ current, pipeline, completed }: Props) {
                     {p.targetCompletion && (
                       <p className="text-xs text-charcoal-light/60">Completion: {p.targetCompletion}</p>
                     )}
-                    <span className="ml-auto font-mono text-xs text-charcoal-light/40">RERA: PO22000007723</span>
+                    <div className="ml-auto flex gap-5">
+                      <Link
+                        href="/projects/nisarga"
+                        className="text-forest text-xs tracking-widest uppercase border-b border-forest/30 pb-0.5 hover:text-gold hover:border-gold transition-colors font-semibold"
+                      >
+                        View Project →
+                      </Link>
+                      <Link
+                        href="/enquire"
+                        className="text-forest text-xs tracking-widest uppercase border-b border-gold pb-0.5 hover:text-gold transition-colors"
+                      >
+                        Enquire →
+                      </Link>
+                    </div>
                   </div>
                 </motion.div>
               ))}

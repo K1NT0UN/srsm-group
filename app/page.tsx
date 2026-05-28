@@ -235,7 +235,7 @@ export default function HomePage() {
                     Kollur — one of Hyderabad&apos;s fastest-growing corridors. Where green meets grandeur.
                   </p>
                   <Link
-                    href="/projects"
+                    href="/projects/nisarga"
                     className="inline-block px-8 py-4 bg-forest text-parchment text-sm tracking-widest uppercase font-semibold hover:bg-forest-dark transition-colors duration-200"
                   >
                     Explore Project →
