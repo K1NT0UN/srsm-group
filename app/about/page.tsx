@@ -63,22 +63,6 @@ const leadership = [
     qualifications: null,
     bio: '',
   },
-  {
-    initials: 'RRC',
-    role: 'Director',
-    name: 'Raavi Rishi Chowdary',
-    tagline: 'Strategy · Investments',
-    qualifications: '[Qualifications to be added]',
-    bio: '',
-  },
-  {
-    initials: 'MR',
-    role: 'In-house Architect',
-    name: 'Manaswitha Raavi',
-    tagline: 'Design · Planning',
-    qualifications: '[Qualifications to be added]',
-    bio: '',
-  },
 ]
 
 const container = {
